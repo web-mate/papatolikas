@@ -1,5 +1,5 @@
 $ble-text: #375fa5;
-$ble-menubg:536ba2;
+$ble-menubg:#536ba2;
 $white:#ffffff;
 $font-family: Open Sans;
 
@@ -23,4 +23,65 @@ body{
  }
 }
 
+}
+
+
+.socialmedia{
+	margin-top: 34px;
+	a{
+		margin-left: 20px;
+		display: block;
+	}
+#twitter{
+	background: url('../images/sprite.png') no-repeat -458px -15px;
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+#facebook{
+background: url('../images/sprite.png') no-repeat -535px -15px;
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+#google{
+background: url('../images/sprite.png') no-repeat -535px -97px;
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+}
+
+.navbarr{
+	background-color:$ble-menubg;
+	margin-top: 32px;
+	min-height: 70px;
+	ul{
+		text-decoration: none;
+		padding-top: 22px;
+		display: block;
+
+		list-style-type: none;
+
+		li{
+			float: left;
+			margin-right: 45px;
+
+
+			a{
+				font-size: 20px;
+				font-weight: 600;
+				color: $white;
+			}
+
+		}
+	}
+
+}
+
+.mainimg{
+	img{
+		max-height: 550px;
+		width: 100%;
+	}
 }
