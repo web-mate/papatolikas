@@ -1,0 +1,26 @@
+$ble-text: #375fa5;
+$ble-menubg:536ba2;
+$white:#ffffff;
+$font-family: Open Sans;
+
+body{
+	font-family:$font-family;
+}
+.header{
+	margin-top:20px;
+
+#logo{
+	background: url('../images/sprite.png') no-repeat -37px -24px;
+	width: 260px;
+	height: 113px;
+}
+.inputsear{
+	margin-top:34px;
+ 
+ .input-group{
+  width:100%;
+
+ }
+}
+
+}
