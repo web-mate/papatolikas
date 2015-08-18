@@ -121,7 +121,7 @@ padding-left:0;
 
 
 .whitear{
-	margin-top: 150px;
+	margin-top: 190px;
 	margin-bottom: 190px;
 	.text{
 		font-weight: 600;
@@ -278,4 +278,11 @@ height: 330px;
 		color: $white;
 	}
 }
+.createdby{
+	text-align: right;
+}
 
+@import 'about';
+@import 'contact';
+@import 'blog';
+@import 'ypiresies';
