@@ -1,0 +1,58 @@
+@media (max-width: 1200px) {
+.navbarr{
+	ul{
+	li{
+		margin-right: 35px;
+	}
+    }
+}
+
+.footer{
+font-size: 15px;
+}
+
+}
+
+@media (max-width: 1000px) {
+
+.navbarr{
+	display: none;
+
+}
+	 #menu {
+		display:none;
+	}
+	
+	.slicknav_menu {
+		display:block;
+	}
+	.header #logo{
+
+		margin: 0 auto;
+	}
+	.socialmedia{
+		margin: 0 auto;
+		width: 210px;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.whitear{
+		margin-top: 90px;
+    margin-bottom: 90px;
+    .text{
+    	text-align: center;
+    	a{
+    		margin: 0 auto;
+    		margin-top: 35px;
+    		margin-bottom: 35px;
+    	}
+    }
+	}
+	.footer .row div{
+		margin-bottom: 20px;
+	}
+	.about img{
+		margin-bottom: 30px;
+	}
+}

@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="SlickNav/slicknav.min.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,7 +45,7 @@
   <div class="container ">
     <div class="row">
     <div class="col-md-12">
-    <ul>
+    <ul id="menu">
   <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
       <li><a href="about.html">ΕΜΕΙΣ</a></li>
       <li><a href="ypiresies.html">ΥΠΗΡΕΣΙΕΣ</a></li>
@@ -148,6 +149,12 @@ Jan Mühlfeit believes that individuals, organizations and countries have enormo
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
         <script src="js/mansory.js"></script>
+                <script src="SlickNav/jquery.slicknav.min.js"></script>
 
+<script>
+  $(function(){
+    $('#menu').slicknav();
+  });
+</script>
   </body>
 </html>

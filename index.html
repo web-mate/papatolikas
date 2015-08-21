@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="SlickNav/slicknav.min.css" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,7 +45,7 @@
   <div class="container ">
     <div class="row">
     <div class="col-md-12">
-    <ul>
+    <ul id="menu">
       <li><a href="index.html">ΑΡΧΙΚΗ</a></li>
       <li><a href="about.html">ΕΜΕΙΣ</a></li>
       <li><a href="ypiresies.html">ΥΠΗΡΕΣΙΕΣ</a></li>
@@ -67,7 +68,7 @@
   <div class="row">
     <div class="col-md-7 text">
 Στόχος μας είναι η μέγιστη προβολή του ακινήτου σας, ώστε να επιτευχθεί η καλύτερη δυνατή πώληση ή μίσθωση το γρηγορότερο δυνατόν.
-<a href="#">Περισσοτερα</a>
+<a href="about.html">Περισσοτερα</a>
 
     </div>
     <div class="col-md-5">
@@ -124,19 +125,19 @@
   <div class="row">
 <div class="grid js-masonry"
   data-masonry-options='{ "itemSelector": ".grid-item"}'>
-  <div class="grid-item col-md-3 smallimg"><a href="#"><img src="images/anak1.jpg" alt="houses"/><span>Ανακοίνωση 1</span></a></div>
-  <div class="grid-item col-md-3 smallimg"><a href="#"> <img src="images/anak1.jpg" alt="villas"/><span>Ανακοίνωση 2</span></a></div>
-  <div class="grid-item col-md-6 bigimg"><a href="#"><img src="images/anak1.jpg" alt="appartments"><span>Ανακοίνωση 3</span> </a> </div>
-  <div class="grid-item col-md-6 bigimg"><a href="#"><img src="images/anak1.jpg" alt="stores"><span>Ανακοίνωση 4</span> </a></div>
-  <div class="grid-item col-md-3 smallimg"><a href="#"><img src="images/anak1.jpg" alt="studios"/><span>Ανακοίνωση 5</span></a></div>
-  <div class="grid-item col-md-3 smallimg"> <a href="#"><img src="images/anak1.jpg" alt="hotels"/><span>Ανακοίνωση 6</span></a></div>
+  <div class="grid-item col-md-3 smallimg"><a href="post.html"><img src="images/anak1.jpg" alt="houses"/><span>Ανακοίνωση 1</span></a></div>
+  <div class="grid-item col-md-3 smallimg"><a href="post.html"> <img src="images/anak1.jpg" alt="villas"/><span>Ανακοίνωση 2</span></a></div>
+  <div class="grid-item col-md-6 bigimg"><a href="post.html"><img src="images/anak1.jpg" alt="appartments"><span>Ανακοίνωση 3</span> </a> </div>
+  <div class="grid-item col-md-6 bigimg"><a href="post.html"><img src="images/anak1.jpg" alt="stores"><span>Ανακοίνωση 4</span> </a></div>
+  <div class="grid-item col-md-3 smallimg"><a href="post.html"><img src="images/anak1.jpg" alt="studios"/><span>Ανακοίνωση 5</span></a></div>
+  <div class="grid-item col-md-3 smallimg"> <a href="post.html"><img src="images/anak1.jpg" alt="hotels"/><span>Ανακοίνωση 6</span></a></div>
 
 </div>
     
   </div>
   <div class="row moreeastate" >
    
-      <a href="#">Περισσοτερα</a>
+      <a href="blog.html">Περισσοτερα</a>
     </div><!-- text-->
 
 </div>
@@ -154,7 +155,7 @@
 
   </div><!-- row -->
  <div class="row moree" >
-  <a href="#">Περισσοτερα</a>
+  <a href="plirofories.html">Περισσοτερα</a>
  </div><!-- text-->
 
  </div><!-- container-->
@@ -172,6 +173,12 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
         <script src="js/mansory.js"></script>
+        <script src="SlickNav/jquery.slicknav.min.js"></script>
 
+<script>
+  $(function(){
+    $('#menu').slicknav();
+  });
+</script>
   </body>
 </html>
