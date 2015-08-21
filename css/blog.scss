@@ -1,0 +1,103 @@
+.blog{
+	margin-bottom: 80px;
+	h2{
+		text-align: center;
+		font-size: 38px;
+		font-weight: 600;
+		color: #112058;
+		text-transform: uppercase;
+		margin-top: 67px;
+		letter-spacing: 2px;
+	}
+	img{
+		margin-top: 67px;
+		width: 100%;
+		max-height: 700px;
+		min-height: 400px;
+	}
+	h3{
+		text-transform: uppercase;
+		margin:50px 0;
+		text-align: center;
+		font-size: 32px;
+		font-weight: 600;
+	}
+	.textpost {
+		line-height: 48px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 600;
+		color: #333333;
+
+	}
+	a{
+	font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    display: block;
+    color: #112058;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+			transition:  color 1s;
+
+}
+
+
+	a:hover{
+color: #539df5;
+
+	}
+}
+.singlepost{
+	h1{
+		font-size: 32px;
+		font-weight: 600;
+		color: #112058;
+		text-transform: uppercase;
+		margin-top: 67px;
+		letter-spacing: 2px; 
+		text-align: center;
+	}
+	img{
+		width: 100%;
+		margin-top: 67px;
+		margin-bottom: 67px;
+	}
+	p{
+		line-height: 38px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 600;
+		color: #333333;
+		margin-bottom: 50px;
+	}
+	a{
+		color: #539df5;
+	transition:  color 1s;
+
+}
+	a:hover{
+color: #537df5;
+
+	}
+	.button{
+		margin: 80px 0;
+		border:1px solid;
+			text-align: center;
+			border-color: $ble-text;
+			color: $ble-text;
+			padding: 10px 60px;
+			display: block;
+			width: 100%;
+			font-size: 30px;
+			line-height: 22px;
+			transition: background-color 1s, color 1s;
+
+	}
+	.button:hover{
+		ext-decoration: none;
+			background-color:$ble-text;
+			color: $white;
+	}
+}
