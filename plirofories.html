@@ -19,6 +19,7 @@
     <![endif]-->
   </head>
   <body>
+    <div class="loader"></div>
  <div class="container ">
   <div class="row header">
     <div class="col-md-3" >
@@ -144,5 +145,10 @@
     $('#menu').slicknav();
   });
 </script>
+    <script>
+$(window).load(function() {
+  $('div.loader').fadeOut(1000);
+  });
+   </script>
   </body>
 </html>
