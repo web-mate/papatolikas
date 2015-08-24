@@ -17,9 +17,13 @@ body{
 	margin-top:20px;
 
 #logo{
+	display: block;
 	background: url('../images/sprite.png') no-repeat -37px -24px;
 	width: 260px;
 	height: 113px;
+	h1{
+		text-indent: -9999px;
+	}
 }
 .inputsear{
 	margin-top:34px;
@@ -299,4 +303,5 @@ height: 330px;
 @import 'blog';
 @import 'ypiresies';
 @import 'plirofories';
+@import 'categories';
 @import 'responsive';
